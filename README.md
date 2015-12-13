@@ -76,7 +76,7 @@ I'm finding (with taking in account network latency) that the performance of the
 Using Ohe's lightPoll model; I believe with a message queue, we can have multiple web worker nodes (only one master node with upstream connection). This will allow for additional scalability if you wish to do a large scale deployment or just use all the cpu cores in one server.
 
 #I'm an App.net 3rd party developer how can I get my app ready for an alternative API server?
-We just need you to have the root of the API request to be configureable.
+We just need you to have the root of the API request to be configurable.
 
 So if you have "`https://api.App.net/`" or "`https://alpha-api.App.net/stream/0/`" are your API root right now, you just need an UI for your users to be able to enter an alternate root. This will allows users to select what API to connect to and use.
 
